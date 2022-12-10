@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+               
         <meta charset="UTF-8">
         <title>Links and Images</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
     </head>
     <body> 
         <h1>Homepage</h1>
-        <a href="https://www.theodinproject.com/about">click me</a>
+
+        <p><div class="odd">Number 1 - I'm a class!</div></p> <!-- This is calling to the class
+        odd only -->
+
+        <p><div id="e2">Number 2 - I'm one ID</div></p> <!-- This is calling to the id e2 -->
+
+        <p><div class= "odd add">Number 3 - I'm a class, but cooler!</div></p> <!-- This is 
+        calling to both the odd and second classes -->
+
+        <p><div id="e4">Number 4 - I'm another ID.</div></p> <!-- This is calling to the 
+        e4 id -->
+
+        <p><div class="odd">Number 5 - I'm a class!</div></p> <!-- This is calling to the class 
+        odd only -->
+
+        <p><div class="both first">Click Me!</div><div class="both second">No, Click Me!</div></p>
+     <!-- the above both call the 'both' class but they each call a second class 'first' and 'second' 
+    to dispaly other elements -->
+
+        <a href="https://www.theodinproject.com/about">Click me</a>
         <!-- used to add a link to another website -->
 
-       <p><a href="./pages/about.html">About</a></p> 
+       <br><br><a href="./pages/about.html">About</a></br></br>
        <!-- used to add a link to another part of you wedsite -->
 
-       <p><img src="images/dog.jpg" alt="A black pug dog in a grey sweater"></p> 
+       <img class="avatar proportioned" src="images/dog.jpg" alt="A black pug dog in a grey sweater"> 
        <!-- Used to add an image --><!-- the alt give the image a description -->
+       <img class="avatar disproportioned" src="images/dog.jpg" alt="A black pug dog in a grey sweater">
+    
+       <div id="unstyled"> <!-- Gives the id to everything in the div -->
+            <p>This should be styled.</p>
+       </div>
+        
+       <p>This should be unstyled.</p> <!-- Does not have the id -->
+       <p>This should be unstyled.</p>
+    
+       <div id="unstyled"> <!-- Gives the div id again -->
+            <p>This should be styled.</p>
+            <p>This should be styled.</p>
+       </div>
+       
+
     </body>
 </html>

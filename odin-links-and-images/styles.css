@@ -1,0 +1,63 @@
+.odd{
+    color: rgb(0, 0, 0);
+    background-color: rgb(236, 149, 164);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+    }
+
+#e2 {
+    color: rgb(8, 17, 148);
+    font-size: 36px;
+}
+
+.add {
+    font-size: 24px;
+    
+}
+
+#e4 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(86, 170, 86);
+    font-size: 24px;
+    font-weight: bold; /* Font additions, bold in this case */
+}
+
+.both {
+    font-size: 28px; /* Fond size */
+    font-family: Helvetica, 'Times New Roman', sans-serif; /* Font type */
+}
+
+.first, .second {
+    display: inline-block; /* Stops the background colour after the text */
+    border: groove; /* Give the groove border thats there */
+    padding: 5px; /* This gives the block colour behind the text */
+}
+
+.first {
+    color: rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
+}
+
+.second {
+    color: rgb(0, 0, 0); /* Is the colour of the text */
+    background-color: rgb(197, 197, 95); /* This will give the background colour */
+
+}
+
+.avatar.proportioned  { /* adding the two classes like this will mean they each have their own 
+    unique properties. Doing .avatar, .proportioned would call both and they would look the same  */
+    height: auto;
+    width: 500px;
+}
+
+.avatar.disproportioned {
+    height: 400px;
+    width: 200px;
+}
+
+#unstyled { /* Calls just the id = unstyled */
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+
+}
